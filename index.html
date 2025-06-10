@@ -1,193 +1,349 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Rafa Bertacelli</title>
-    <link rel="icon" type="image/png" href="images/sobreMimPic.png">
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio Rafa Bertacelli</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="images/portifolioLogo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 </head>
 
 <body>
-    <div class="container">
-
-        <nav class="nav-container">
-            <button class="menu-toggle">
-                <img src="images/fro.png" alt="Flor">
-            </button>
-            <div class="nav-menu">
-                <a href="#inicio">Início</a>
-                <a href="#sobreMim">Sobre</a>
-                <a href="#expe">Projetos</a>
-                <a href="#HabilidadesId">Habilidades</a>
-            </div>
-        </nav>
-
-        <section id="inicio" class="inicio">
-            <div class="parteEsquerda">
-                <div class="texto">
-                    <h1><span class="nome">Rafa Bertacelli</span></h1>
-                    <h2>Desenvolvedora & Motion Designer</h2>
-                    <p>Código limpo, design intuitivo, impacto real.</p>
-                    <a href="mailto:rafabertacelli2303@gmail.com?subject=Contato&body=Olá,%20gostaria%20de%20falar%20com%20você." class="botao">Entre em
-                        contato</a>
-                </div>
-            </div>
-            <img src="images/pPp.png" alt="Ícone de código" class="fotoCod">
-        </section>
-
-
-
-
-        <section id="sobreMim" class="sobreMim">
-            <div class="containerSobreMim">
-                <img src="images/sobreMimPic.png" alt="Rafa Icon" class="sobreMimPic">
-
-                <div class="textoSobreMim">
-                    <h2 class="tituloSobreMim">Sobre mim</h2>
-                    <h3 class="cargo">FullStack Developer & Motion Designer</h3>
-                    <p>
-                        Opa! Sou a Rafa, uma desenvolvedora criativa que ama transformar ideias em experiências
-                        digitais.
-                        Trabalho com desenvolvimento de sites, sempre buscando unir funcionalidade e estética para criar
-                        projetos que se destaquem.
-                    </p>
-                    <p>
-                        Além do código, trabalho na criação de vídeos, explorando novas formas de comunicação visual e
-                        storytelling.
-                    </p>
-                    <div class="social-icons">
-                        <a href="https://www.instagram.com/nany_nicee" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/rafaela-bertacelli-642607274" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://www.youtube.com/@rafinhawww" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="https://github.com/RafaBertacelli" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="mailto:rafabertacelli2303@gmail.com">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="divisaoo">
-            <img src="images/divsao.png" class="divisao">
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-laptop-code"></i>
+            <span>Rafa Bertacelli</span>
         </div>
 
-        <section id="expe" class="expe">
-            <div class="containerExpe">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#depoimentos" class="nav-link">Feedbacks</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
 
-                <h2 class="tituloExpe">Projetos !</h2>
 
-                <div class="timeline">
-                    <div class="containers left-container">
-                        <img src="images/logo3.jpeg">
-                        <div class="text-box">
-                            <h2>Perifa – Plataforma de Brechó Online</h2>
-                            <small>2023 - 2024 </small>
-                            <p>
-                                O Perifa foi desenvolvido como TCC do meu curso técnico, com o objetivo de criar uma
-                                plataforma web e móvel que conecta pessoas de baixa renda a roupas acessíveis,
-                                incentivando a economia circular por meio da compra e venda de itens de segunda mão.
-                                Além disso, a plataforma oferece uma dashboard intuitiva para os vendedores, ferramentas
-                                administrativas para gestão de usuários e tutoriais para facilitar o processo de
-                                desapego e venda. O projeto foi desenvolvido com Laravel (Blade) no backend e um layout
-                                responsivo para otimizar a experiência do usuário em diferentes dispositivos.
-                            </p>
-                            <div class="social-icons">
-                                <a href="https://github.com/Peter157097/Perifaa" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                            <span class="left-container-arrow"></span>
-                        </div>
-                    </div>
-                    <div class="containers right-container">
-                        <img src="images/logo3.jpeg">
-                        <div class="text-box">
-                            <h2>Vídeo Pitch – Perifa</h2>
-                            <small>2024 - 2024</small>
-                            <p>
-                                Criei um vídeo pitch para apresentar o Perifa, uma plataforma de brechó online voltada
-                                para a economia circular e acessibilidade. O vídeo foi desenvolvido no Adobe After
-                                Effects, utilizando um estilo de colagem, combinando imagens, texturas e recortes para
-                                criar uma estética autêntica e dinâmica.
-                                A proposta foi transmitir a identidade visual do projeto de forma criativa e envolvente,
-                                destacando suas funcionalidades e impacto social. A composição visual e as transições
-                                foram trabalhadas para garantir um fluxo narrativo leve e atrativo.
-                            </p>
-                            <div class="social-icons">
-                                <a href="https://youtu.be/AaAJpQKmppI?si=lLKU28IwcgiKB99d" target="_blank">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>
-                            <span class="right-container-arrow"></span>
+        <div class="menu-toggle" id="menu-toggle">
+            <i data-feather="menu"></i>
+        </div>
+    </header>
 
-                        </div>
-                    </div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="close-btn" id="close-btn">
+            <i data-feather="x"></i>
+        </div>
+        <ul>
+            <li><a href="#inicio" class="nav-link">Início</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li><a href="#projetos" class="nav-link">Projetos</a></li>
+            <li><a href="#depoimentos" class="nav-link">Feedbacks</a></li>
+            <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+    </div>
 
-                </div>
-        </section>
-        <section id="HabilidadesId" class="HabilidadesId">
-
-            
-            <div class="partehabilidades">
-                <h2 class="titulo"></h2>
-
-                <div class="habilidades">
-                    <div class="habilidade">
-                        <h3>Linguagens de Programação</h3>
-                        <p>HTML, CSS, JavaScript, Python, Java e Php</p>
-                    </div>
-
-                    <div class="habilidade">
-                        <h3>Frameworks e Bibliotecas</h3>
-                        <p>Bootstrap, React e Laravel</p>
-                    </div>
-
-                    <div class="habilidade">
-                        <h3>Banco de Dados</h3>
-                        <p>MySQL e SQL Server</p>
-                    </div>
-
-                    <div class="habilidade">
-                        <h3>Metodologias Ágeis</h3>
-                        <p>Scrum e Kanban</p>
-                    </div>
-                </div>
+    <div class="parteInicial-container" id="inicio">
+        <div class="parteInicial-content">
+            <p class="parteInicial-ola"><i class="fa-solid fa-rocket"></i> Olá, eu sou</p>
+            <h1 class="parteInicial-nome">Rafa Bertacelli</h1>
+            <p class="parteInicial-descricao">Transformando ideias em interfaces <br> incríveis e funcionais.</p>
+            <div class="parteInicial-info">
+                <p><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</p>
+                <p><i class="fas fa-envelope"></i> rafabertacelli2303@gmail.com</p>
             </div>
+            <div class="parteInicial-botoes">
+                <button class="parteInicial-btn contato"><i class="fas fa-paper-plane"></i> Entre em Contato</button>
+                <a href="cv/Rafaela-Bertacelli-Curriculo.pdf" download="Curriculo-Rafaela-Bertacelli.pdf">
+                    <button class="parteInicial-btn cv"><i class="fas fa-download"></i> Baixar CV</button>
+                </a>
 
-            <!--parte do video-->
-            <div class="video">
 
-            <dotlottie-player src="https://lottie.host/a3971506-e519-480d-b1c9-64a852521d27/oBkU7P4iro.lottie"
-                background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay></dotlottie-player>
             </div>
-
+            <div class="parteInicial-social">
+                <a href="https://github.com/RafaBertacelli" target="_blank"><i class="fas fa-code"></i></a>
+                <a href="https://www.linkedin.com/in/rafaela-bertacelli-642607274/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rafabertacelli2303@gmail.com&su=Assunto%20da%20mensagem&body=Texto%20da%20mensagem"
+                    target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="parteInicial-imagem"></div>
     </div>
 
 
+    <section class="sobreMim-section" id="sobre"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200"
+        data-aos-easing="ease-out-cubic">
+        <div class="sobreMim-img-container">
+            <img src="images/foto1.png" alt="Foto de perfil">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+        <div class="sobreMim-content">
+            <h2 class="sobreMim-title">Sobre Mim</h2>
+            <div class="sobreMim-star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-computer"></i></div>
+            <p class="sobreMim-text">
+                Opa! Sou a Rafa, uma desenvolvedora criativa que ama transformar ideias em experiências digitais.
+                Trabalho com desenvolvimento de sites, sempre buscando unir funcionalidade e estética para criar
+                projetos que se destaquem.
+
+                Além do código, trabalho na criação de vídeos, explorando novas formas de comunicação visual e
+                storytelling.
+            </p>
+
+            <h3 class="sobreMim-skills-title">Minhas Habilidades</h3>
+            <div class="sobreMim-skills">
+                <div class="sobreMim-skill">JavaScript</div>
+                <div class="sobreMim-skill">TypeScript</div>
+                <div class="sobreMim-skill">React</div>
+                <div class="sobreMim-skill">Next.js</div>
+                <div class="sobreMim-skill">Node.js</div>
+                <div class="sobreMim-skill">PHP</div>
+                <div class="sobreMim-skill">Laravel</div>
+                <div class="sobreMim-skill">HTML5</div>
+                <div class="sobreMim-skill">CSS3</div>
+                <div class="sobreMim-skill">Tailwind CSS</div>
+                <div class="sobreMim-skill">MySQL</div>
+                <div class="sobreMim-skill">SQL</div>
+                <div class="sobreMim-skill">Git</div>
+                <div class="sobreMim-skill">GitHub</div>
+                <div class="sobreMim-skill">Figma</div>
+                <div class="sobreMim-skill">API REST</div>
+                <div class="sobreMim-skill">UI/UX Design</div>
+                <div class="sobreMim-skill">Scrum</div>
+            </div>
+
+        </div>
     </section>
 
-    </div>
+
+    <section class="projetos-section" id="projetos"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200"
+        data-aos-easing="ease-out-cubic">
+        <div class="projetos-container">
+            <div class="projetos-header">
+                <i class="fa-solid fa-briefcase projetos-icon"></i>
+                <h2 class="projetos-title">Minhas Criações</h2>
+                <p class="projetos-desc">Confira alguns dos projetos que desenvolvi, com foco em funcionalidade, design
+                    responsivo e experiência do usuário. Cada entrega foi uma oportunidade de aplicar meus conhecimentos
+                    e gerar soluções reais.</p>
+                <i class="fa-solid fa-wand-magic-sparkles projetos-decor"></i>
+            </div>
+
+            <div class="projetos-cards">
+
+                <!-- Projeto 1 -->
+                <div class="projetos-card">
+                    <img src="images/loadProject.png" alt="League of Divas">
+                    <div class="projetos-card-content">
+                        <h3>League of Divas</h3>
+                        <p>Plataforma dedicada à comunidade feminina de League of Legends. Desenvolvida com Laravel e
+                            Blade, inclui autenticação, permissões, dashboard administrativa e diversos CRUDs
+                            funcionais.</p>
+                        <div class="projetos-tags">
+                            <span><i class="fa-solid fa-tag"></i> Laravel</span>
+                            <span><i class="fa-solid fa-tag"></i> PHP</span>
+                            <span><i class="fa-solid fa-tag"></i> Blade</span>
+                            <span><i class="fa-solid fa-tag"></i> HTML/CSS</span>
+                            <span><i class="fa-solid fa-tag"></i> MySQL</span>
+                        </div>
+                        <div class="projetos-buttons">
+                            <a href="https://lnkd.in/dn79D7FJ" class="btn-demo" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i> Acessar Site
+                            </a>
+                            <a href="https://www.linkedin.com/posts/rafaela-bertacelli-642607274_projeto-finalizado-league-of-divas-est%C3%A1-activity-7335507421164978176-u3yi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEMCetIBg37ALo6tmhcHYCUYTYBsq9bNA0k"
+                                class="btn-code" target="_blank">
+                                <i class="fa-regular fa-eye"></i> Ver no linkedin
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
 
+                <!-- Projeto 2 -->
+                <div class="projetos-card">
+                    <img src="images/perifaProject.png" alt="Projeto 2">
+                    <div class="projetos-card-content">
+                        <h3>Perifa - Projeto TCC</h3>
+                        <p>Plataforma web responsiva para compra e venda de produtos de segunda mão, com dashboards
+                            distintos para vendedores e administradores. O projeto foca na inclusão digital.</p>
+                        <div class="projetos-tags">
+                            <span><i class="fa-solid fa-tag"></i> Laravel</span>
+                            <span><i class="fa-solid fa-tag"></i> PHP</span>
+                            <span><i class="fa-solid fa-tag"></i> Blade</span>
+                            <span><i class="fa-solid fa-tag"></i> HTML/CSS</span>
+                            <span><i class="fa-solid fa-tag"></i> MySQL</span>
+                        </div>
+                        <div class="projetos-buttons">
+                            <a href="https://github.com/Peter157097/Perifaa" class="btn-demo" target="_blank">
+                                <i class="fa-solid fa-up-right-from-square"></i> GitHub
+                            </a>
+                            <a href="https://youtu.be/AaAJpQKmppI" class="btn-code" target="_blank">
+                                <i class="fa-regular fa-eye"></i> Ver vídeo pitch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="projetos-card">
+                    <img src="images/portifolioProject.png" alt="Projeto 3">
+                    <div class="projetos-card-content">
+                        <h3>Portfólio Profissional</h3>
+                        <p>Site pessoal desenvolvido para apresentar meus projetos, habilidades e trajetória na área de
+                            tecnologia. Totalmente responsivo, com design personalizado.</p>
+                        <div class="projetos-tags">
+                            <span><i class="fa-solid fa-tag"></i> HTML</span>
+                            <span><i class="fa-solid fa-tag"></i> CSS</span>
+                            <span><i class="fa-solid fa-tag"></i> JavaScript</span>
+                            <span><i class="fa-solid fa-tag"></i> Responsivo</span>
+                            <span><i class="fa-solid fa-tag"></i> Figma</span>
 
-    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+                        </div>
+                        <div class="projetos-buttons">
+                            <a href="https://rafabertacelli.github.io/RafaBertacelliPortifolio/" target="_blank"
+                                class="btn-demo">
+                                <i class="fa-solid fa-up-right-from-square"></i> Acessar Site
+                            </a>
+                            <a href="https://github.com/RafaBertacelli/RafaBertacelliPortifolio" target="_blank"
+                                class="btn-code">
+                                <i class="fa-regular fa-eye"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="feedbacks-container" id="depoimentos"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200"
+        data-aos-easing="ease-out-cubic">
+        <div class="feedbacks-header">
+            <div class="feedbacks-icon-circle">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <h2>Feedbacks</h2>
+            <p>Veja o que os outros têm a dizer sobre trabalhar comigo. Valorizo a colaboração e me esforço para
+                entregar os melhores resultados.</p>
+            <i class="fa-solid fa-wand-magic-sparkles feedbacks-sparkle"></i>
+        </div>
+
+        <div class="feedbacks-cards">
+            <div class="feedbacks-card">
+                <div class="feedbacks-avatar">
+                    <img src="images/loadImg.png" alt="CEO LO">
+                </div>
+                <i class="fa-solid fa-quote-left feedbacks-quote"></i>
+                <p class="feedbacks-text">"Sofia é uma desenvolvedora incrivelmente talentosa. Sua atenção aos detalhes
+                    e soluções criativas foram instrumentais para o sucesso do nosso projeto. Altamente recomendada!"
+                </p>
+                <h3>Steph</h3>
+                <span class="feedbacks-role">CEO, League of Divas.</span>
+            </div>
+
+            <div class="feedbacks-card">
+                <div class="feedbacks-avatar">
+                    <img src="images/etecimg.png" alt="imagem da ETEC">
+                </div>
+                <i class="fa-solid fa-quote-left feedbacks-quote"></i>
+                <p class="feedbacks-text">"Trabalhar com a Sofia foi muito fácil. Ela não é apenas habilidosa, mas
+                    também uma ótima comunicadora. O produto final excedeu nossas expectativas."</p>
+                <h3>John Smith</h3>
+                <span class="feedbacks-role">Gerente de Projeto, Creative Co.</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato-container" id="contato"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200"
+        data-aos-easing="ease-out-cubic">
+        <div class="contato-header">
+            <div class="contato-icon-circle">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <h2>Vamos Conectar</h2>
+            <p>Tem um projeto em mente, uma pergunta ou apenas quer dizer oi? Sinta-se à vontade para entrar em contato!
+            </p>
+            <i class="fa-solid fa-wand-magic-sparkles contato-sparkle"></i>
+        </div>
+
+        <div class="contato-content">
+            <form class="contato-form" action="https://formspree.io/f/xyzjearg" method="POST">
+                <h3>Envie-me uma mensagem</h3>
+
+
+                <div class="form-group">
+                    <input type="text" name="nome" id="nome" placeholder=" " required />
+                    <label for="nome">Nome Completo</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder=" " required />
+                    <label for="email">Endereço de Email</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="mensagem" id="mensagem" placeholder=" " rows="5" required></textarea>
+                    <label for="mensagem">Sua Mensagem</label>
+                </div>
+
+                <button type="submit" class="contato-btn-submit">
+                    <span class="contato-fill"></span>
+                    <span class="contato-btn-text">Enviar Mensagem <i class="fa-regular fa-paper-plane"></i></span>
+                </button>
+            </form>
+
+
+            <div class="contato-info">
+                <h3>Detalhes de Contato</h3>
+                <p><strong>Email:</strong> <a
+                        href="mailto:rafabertacelli2303@gmail.com">rafabertacelli2303@gmail.com</a></p>
+                <p><strong>Localização:</strong> São Paulo, Brasil</p>
+
+                <h4>Encontre-me nas Redes Sociais</h4>
+                <div class="contato-socials">
+                    <a href="https://github.com/RafaBertacelli" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="https://www.linkedin.com/in/rafaela-bertacelli-642607274/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rafabertacelli2303@gmail.com&su=Assunto%20da%20mensagem&body=Texto%20da%20mensagem"
+                        target="_blank">
+                        <i class="fas fa-envelope"></i>
+                </div>
+
+                <div class="contato-highlight">
+                    <h5>Vamos construir algo incrível!</h5>
+                    <p>Estou sempre animada para discutir novos projetos e ideias inovadoras. Não hesite em entrar em
+                        contato.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mini-footer">
+        <div class="footer-content">
+            <p>Feito com <i class="fa-solid fa-heart" style="color:#e91e63;"></i> por <strong>Rafa Bertacelli</strong>
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/RafaBertacelli" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rafaela-bertacelli-642607274/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:rafabertacelli2303@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+            <p class="footer-copy">&copy; <span id="year"></span> Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
-
+    <script>feather.replace();</script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
