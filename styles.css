@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::-moz-selection {
+    background-color: #3c2f2f;
+    color: white;
+}
 html,
 body {
     overflow-x: hidden;
