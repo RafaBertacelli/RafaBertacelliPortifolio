@@ -480,6 +480,138 @@ body {
     }
 }
 
+.experiencia-section {
+    padding: 40px 20px;
+}
+
+.experiencia-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.experiencia-icon {
+    font-size: 28px;
+    color: #e91e63;
+    background: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.experiencia-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.experiencia-desc {
+    font-size: 1rem;
+    color: #6c4b6c;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.experiencia-decor {
+    color: #e91e63;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.experiencia-timeline {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+
+.experiencia-empresa {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #e91e63;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.experiencia-empresa:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia-empresa-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.experiencia-empresa-header i {
+    color: #e91e63;
+    font-size: 1.1rem;
+}
+
+.experiencia-empresa-header h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #3c2f2f;
+    margin-right: auto;
+}
+
+.experiencia-periodo {
+    background: #eddbe1;
+    color: #5e3a5e;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.experiencia-cargo {
+    padding: 14px 0 14px 16px;
+    border-left: 2px solid #f3d6e3;
+    margin-left: 4px;
+    margin-bottom: 6px;
+}
+
+.experiencia-cargo:last-child {
+    margin-bottom: 0;
+}
+
+.experiencia-cargo-topo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.experiencia-cargo-topo h4 {
+    font-size: 1.02rem;
+    font-weight: 700;
+    color: #3c2f2f;
+    margin-right: auto;
+}
+
+.experiencia-cargo p {
+    font-size: 0.92rem;
+    color: #5e4b5e;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .experiencia-title {
+        font-size: 2rem;
+    }
+
+    .experiencia-empresa {
+        padding: 18px;
+    }
+}
+
 .projetos-section {
     padding: 40px 20px;
 }
@@ -615,15 +747,21 @@ body {
 @media (min-width: 768px) {
     .projetos-cards {
         flex-direction: row;
-        flex-wrap: nowrap;
-        /* <- Impede quebra */
+        flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
     }
 
     .projetos-card {
-        flex: 1 1 0;
-        max-width: 33%;
+        flex: 1 1 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+    }
+}
+
+@media (min-width: 1300px) {
+    .projetos-card {
+        flex: 1 1 calc(25% - 20px);
+        max-width: calc(25% - 20px);
     }
 }
 
