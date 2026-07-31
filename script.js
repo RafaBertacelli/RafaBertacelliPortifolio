@@ -2,6 +2,15 @@ const menuToggle = document.getElementById('menu-toggle');
 const mobileMenu = document.getElementById('mobile-menu');
 const closeBtn = document.getElementById('close-btn');
 
+const typed = new Typed('#typed-text', {
+    strings: ['Transformando ideias em interfaces incríveis e funcionais.', 'Criando experiências digitais marcantes.', 'Desenvolvendo soluções reais com código.'],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true,
+    showCursor: true,
+    cursorChar: '|',
+});
+
 menuToggle.addEventListener('click', () => {
     mobileMenu.classList.add('show');
 });
