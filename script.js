@@ -131,3 +131,10 @@ elementosInterativos.forEach(el => {
         clickSound.play().catch(error => console.log('Autoplay bloqueado no click'));
     });
 });
+
+VanillaTilt.init(document.querySelectorAll(".projetos-card"), {
+    max: 15, // Inclinação máxima
+    speed: 400, // Velocidade da animação
+    glare: true, // Efeito de brilho
+    "max-glare": 0.3 // Intensidade do brilho
+});
