@@ -99,3 +99,26 @@ form.addEventListener('submit', function(e) {
 });
 
  document.getElementById("year").textContent = new Date().getFullYear();
+
+// Crie os objetos de áudio (substitua pelos caminhos reais dos seus arquivos)
+const hoverSound = new Audio('sounds/hover-suave.mp3');
+const clickSound = new Audio('sounds/click-suave.mp3');
+
+// Abaixe um pouco o volume para ficar elegante
+hoverSound.volume = 0.2;
+clickSound.volume = 0.4;
+
+// Seleciona todos os botões, links e cards de projetos
+const elementosInterativos = document.querySelectorAll('button, a, .projetos-card');
+
+elementosInterativos.forEach(el => {
+    el.addEventListener('mouseenter', () => {
+        hoverSound.currentTime = 0; // Reseta o som para tocar rápido
+        hoverSound.play().catch(error => console.log('Autoplay bloqueado no hover'));
+    });
+
+    el.addEventListener('click', () => {
+        clickSound.currentTime = 0;
+        clickSound.play().catch(error => console.log('Autoplay bloqueado no click'));
+    });
+});
